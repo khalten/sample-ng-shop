@@ -1,0 +1,14 @@
+.cartcount {
+    font-family: 'Barlow', sans-serif;
+    position: absolute;
+    background: #ff2211;
+    color: white;
+    text-align: center;
+    padding-top: 4px;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    margin: -5px 0 0 20px;
+    border-radius: 1000px;
+    font-weight: 700;
+}

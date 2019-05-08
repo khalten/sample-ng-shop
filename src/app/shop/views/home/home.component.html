@@ -1,0 +1,7 @@
+<div *ngIf="products">
+  <div class="row pb-5">
+    <div class="col-md-4 col-sm-5" *ngFor="let product of products">
+      <app-product [product]="product"></app-product>
+    </div>
+  </div>
+</div>

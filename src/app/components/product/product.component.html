@@ -1,0 +1,6 @@
+<div class="product card border-0 shadow text-center p-3 mb-5">
+  <h6> {{ product.name }} </h6>
+  <img [src]="product.img" alt="" class="img-fluid">
+  <h6 class="pt-2"> {{ product.price | currency }} </h6>
+  <button class="btn btn-outline-primary" (click)="addToCart()">Add item</button>
+</div>

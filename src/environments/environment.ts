@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  API_SCHEME: 'http',
+  API_DOMAIN: 'localhost:3000',
+  API_VERSION: '',
+  API_PRODUCT_IMAGE_URL: 'https://raw.githubusercontent.com/sdras/sample-vue-shop/master/static/'
 };
 
 /*
